@@ -1,0 +1,9 @@
+# Input three numbers
+a = 10
+b = 20
+c = 15
+
+# Find the maximum using ternary operator
+max_num = a if (a > b and a > c) else (b if b > c else c)
+
+print(f"The maximum number is: {max_num}")
