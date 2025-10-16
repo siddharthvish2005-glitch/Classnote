@@ -1,0 +1,11 @@
+import math
+
+
+angle = 60  # degrees
+radius = 42  # units
+arc_length = (angle / 360) * 2 * math.pi * radius
+perimeter = arc_length
+side = perimeter / 4
+area = side ** 2
+
+print("Area of the square:", round(area, 2))
